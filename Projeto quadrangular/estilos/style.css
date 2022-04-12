@@ -19,6 +19,10 @@ img.centro {
     align-items: center;
 }
 body{
+<<<<<<< Updated upstream
     background-color:rgb(146, 5, 151);
+=======
+    background-image: linear-gradient(to right top, rgb(207, 240, 20),rgb(156, 8, 107));
+>>>>>>> Stashed changes
 }
 
