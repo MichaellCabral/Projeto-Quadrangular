@@ -1,28 +1,40 @@
 @charset "utf-8";
 
 h1{
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
-    font-style: italic;
+    font-family:Arial, Helvetica, sans-serif;
+    text-shadow: 1px 3px 2px rgb(83, 8, 58);
     text-align: center;
     font-size: 50px;
     color:rgb(242, 242, 250)
 }
 h2{
+    text-shadow: 1px 2px 2px rgb(83, 8, 58);
     color: white;
     font-size: 30px;
 }
 img.lado {
+    box-shadow: 2px 2px 3px rgb(83, 8, 58);
     float:right
 }
+
 img.centro {
-    float:initial;
-    align-items: center;
+    box-shadow: 2px 2px 3px rgb(83, 8, 58);
+}
+video{
+    box-shadow: 3px 3px 3px rgb(83, 8, 58); 
+}
+main {
+
+    border-radius: 10px;
+    width: 1080px;
+    margin: auto;
+    padding: 20px;
+    background-image: linear-gradient(to right top, rgb(207, 240, 20),rgb(156, 8, 107));
+}
+p {
+    text-align: justify;
 }
 body{
-<<<<<<< Updated upstream
-    background-color:rgb(146, 5, 151);
-=======
-    background-image: linear-gradient(to right top, rgb(207, 240, 20),rgb(156, 8, 107));
->>>>>>> Stashed changes
+    background-image: linear-gradient(to right  top, rgb(144, 208, 233),rgb(255, 0, 0));
 }
 
