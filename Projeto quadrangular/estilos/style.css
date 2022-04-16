@@ -7,7 +7,13 @@
     font-size: 40px;
     color:rgb(242, 242, 250)
 }
-
+.titulosecundario
+{
+    text-shadow: 1px 3px 2px rgb(83, 8, 58);
+    text-align: center;
+    font-size: 40px;
+    color:rgb(242, 242, 250)
+}
 img.lado {
     box-shadow: 2px 2px 3px rgb(83, 8, 58);
     float:right
