@@ -1,37 +1,39 @@
 @charset "utf-8";
 
 #principal{
-    font-family:Arial,, sans-serif;
+    font-family:Arial,sans-serif;
     text-shadow: 1px 3px 2px rgb(83, 8, 58);
     text-align: center;
-    font-size: 40px;
+    font-size: 60px;
     color:rgb(242, 242, 250)
 }
 .titulosecundario
 {
     text-shadow: 1px 3px 2px rgb(83, 8, 58);
-    text-align: center;
+    text-align: left;
     font-size: 40px;
     color:rgb(242, 242, 250)
 }
 img.lado {
     box-shadow: 2px 2px 3px rgb(83, 8, 58);
-    float:right
+    right;
+    
 }
 
-img.centro {
+.centro {
     width: 300; height: 300;
     box-shadow: 2px 2px 3px rgb(83, 8, 58);
 }
 video{
     box-shadow: 3px 3px 3px rgb(83, 8, 58); 
+    left;
 }
-main {
-
+div{
     border-radius: 10px;
-    width: 1080px;
-    margin: auto;
-    padding: 20px;
+    height:auto;
+    width:auto;
+    margin: 50px;
+    padding: 50px;
     background-image: linear-gradient(to right top, rgb(207, 240, 20),rgb(156, 8, 107));
 }
 p {
@@ -42,5 +44,15 @@ p {
 body{
     background-image: linear-gradient(to right  top, rgb(144, 208, 233),rgb(255, 0, 0));
 }
-
-
+a{
+    color:rgb(50, 6, 100);
+    text-decoration: none;
+    font-weight: 600;
+}
+a:visited{
+    color: rgb(92, 7, 122);
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(141, 15, 15);
+}
