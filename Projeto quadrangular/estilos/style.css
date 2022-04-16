@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-h1,h2{
+#principal{
     font-family:Arial,, sans-serif;
     text-shadow: 1px 3px 2px rgb(83, 8, 58);
     text-align: center;
@@ -36,4 +36,5 @@ p {
 body{
     background-image: linear-gradient(to right  top, rgb(144, 208, 233),rgb(255, 0, 0));
 }
+
 
