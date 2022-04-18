@@ -1,8 +1,13 @@
 @charset "utf-8";
-
+body{
+    margin: auto;
+}
+header{
+margin: auto;
+}
 #principal{
     font-family:Arial,sans-serif;
-    text-shadow: 1px 3px 2px rgb(83, 8, 58);
+    text-shadow: 10px 10px 10px rgb(83, 8, 58);
     text-align: center;
     font-size: 60px;
     color:rgb(242, 242, 250)
@@ -14,19 +19,17 @@
     font-size: 40px;
     color:rgb(242, 242, 250)
 }
-img.lado {
+.culto {
     box-shadow: 2px 2px 3px rgb(83, 8, 58);
-    right;
-    
+    float: right;
 }
-
-.centro {
+.principal {
     width: 300; height: 300;
     box-shadow: 2px 2px 3px rgb(83, 8, 58);
 }
 video{
     box-shadow: 3px 3px 3px rgb(83, 8, 58); 
-    left;
+    margin: auto;
 }
 div{
     border-radius: 10px;
