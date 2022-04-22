@@ -6,6 +6,15 @@ header{
    margin: 48px;
    
 }
+main{
+    border-radius: 10px;
+    height:auto;
+    width:auto;
+    margin: 50px;
+    padding: 50px;
+    background-image: linear-gradient(to right top, rgb(207, 240, 20),rgb(156, 8, 107));
+    box-shadow: 2px 2px 8px  rgba(0, 0, 0, 0.37);
+}
 #principal{
     font-family:Arial,sans-serif;
     text-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.37);
